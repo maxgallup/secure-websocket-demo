@@ -12,7 +12,7 @@ const websocket = new WebSocketServer({
 })
 
 
-httpserver.listen(8080, () => console.log("My server is listening on port 8080"))
+httpserver.listen(8400, () => console.log("My server is listening on port 8400"))
 
 
 //when a legit websocket request comes listen to it and get the connection .. once you get a connection thats it! 
